@@ -9,10 +9,11 @@ export class ProfileComponent implements OnInit {
   public firstName = 'Nivedya';
   public lastName ='kv';
   public title = 'This is the example for property binding';
+  public value='        Write your name here';
   public email: string = ''; 
   public reason: string = ''; 
   public formSubmitted: boolean = false; 
-
+ 
   constructor() { }
   ngOnInit(): void {
   }
