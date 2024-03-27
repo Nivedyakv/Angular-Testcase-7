@@ -13,7 +13,11 @@ export class ProfileComponent implements OnInit {
   public email: string = ''; 
   public reason: string = ''; 
   public formSubmitted: boolean = false; 
+<<<<<<< HEAD
  
+=======
+  public value='        Write your name here';
+>>>>>>> 4f7a25a0f4350444b01e8ccaa050da586a76d5ee
   constructor() { }
   ngOnInit(): void {
   }
