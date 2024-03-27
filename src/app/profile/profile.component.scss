@@ -1,0 +1,71 @@
+.bnx-head {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  
+    p {
+      font-size: 18px;
+      margin: 0;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  
+  .bnx-contact {
+    padding: 20px;
+   text-align: center;
+  
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input[type="email"],
+    textarea {
+      width: 50%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+     
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #1df73e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    
+  
+      &:hover {
+        background-color: #00d0ff;
+      }
+    }
+  }
+  .one{
+    background-color: #ffc7c7;
+    color: #6c0000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+   
+    
+  }
+  
+
+  
