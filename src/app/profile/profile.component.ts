@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   public email: string = ''; 
   public reason: string = ''; 
   public formSubmitted: boolean = false; 
-
+  public value='        Write your name here';
   constructor() { }
   ngOnInit(): void {
   }
